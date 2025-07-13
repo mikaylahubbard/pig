@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pig</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+        </style>
+    </head>
+    <body>
+        <!--header - includes end game and start game-->
+            
+            <div class="row">
+                <div class="col-12 header">
+                    <h1>PIG</h1>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="header2">
+                 <!--this button should start a new game from scratch-->
+                <button id="restartButton" class="button">Start Game</button>
+                <a href="rules.html" class="button">Rules</a>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-4 p1">
+                    <p>Player 1</p>
+                    <p id="p1Score" class="score"></p>
+                </div>
+                <div class="col-4 light-pink" id="currentPlayerDiv">
+                <!--display the current player name-->
+                    <h2 id="currentPlayer">Player: </h2>
+                    <!--display the current sum-->
+                    <p id="currentSum" class="score"></p>
+                </div>
+                <div class="col-4 p2">
+                    <p>Player 2</p>
+                    <p id="p2Score" class="score"></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="img/pig3.png">
+                </div>
+                <div class="col-4">
+                        <!--display the die-->
+                     <img id="die" src = "img/d0.jpg">
+
+                    <!--buttons to roll and hold-->
+                    <br>
+                    <button id="rollButton" class="button">Roll</button>
+                    <button id="holdButton" class="button">Hold</button>  
+                </div>
+                <div class="col-4">
+                    <img src="img/pig.png">
+                </div>
+            </div>    
+        <script src="script.js"></script>
+    </body>
+</html>
