@@ -1,0 +1,111 @@
+/* image possibilities: https://www.pngitem.com/middle/hTbwwwh_waddles-piggy-pig-gravityfalls-pato-gravity-falls-png/ 
+https://www.clipartmax.com/middle/m2i8i8H7i8N4A0K9_pig-clipart-transparent-waddles-from-gravity-falls/ 
+
+colors: #D98FA3, #F2B3C4, #F26389 - pinks
+        #594749, #0D0D0D - brown, black
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+/* responsive */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.row::after {
+    content: "";
+    clear:both;
+    display: block;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Poor Story', cursive;
+}
+
+.header {
+    font-size: 3em;
+    background-color: #D98FA3;
+    color: white;
+    margin-bottom: 0.5em;
+}
+.button {
+    background-color: white; 
+    color: #0D0D0D; 
+    border: 2px solid #D98FA3;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 6px 3px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}  
+.button:hover {
+    background-color: #D98FA3;
+    color: white;
+  }
+
+.score {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 300%;
+}
+.p1 {
+    color: #F26389;
+    font-weight: bold;
+}
+
+.p2 {
+    color: #8C2A44;
+    font-weight: bold;
+}
+
+.light-pink {
+    color: #F2B3C4;
+}
+
+.info {
+    text-align: left;
+    padding: 3em;
+}
